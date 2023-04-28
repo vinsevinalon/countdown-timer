@@ -1,9 +1,5 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import CountdownTimer from '../components/CountdownTimer';
 import { useState } from 'react';
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const [countdownDate, setCountdownDate] = useState(new Date('2023-05-01T00:00:00'));
